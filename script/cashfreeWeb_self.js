@@ -1,4 +1,4 @@
-const BaseURL = 'https://incentives-prisoners-titans-felt.trycloudflare.com/';
+const BaseURL = 'https://incentives-prisoners-titans-felt.trycloudflare.com';
 document.getElementById("renderBtn").addEventListener("click", async () => {
     try {
         let token = localStorage.getItem("token");

@@ -1,6 +1,6 @@
 document.querySelector('form').addEventListener('submit', async (e) => {
   e.preventDefault();
-const BaseURL = 'https://incentives-prisoners-titans-felt.trycloudflare.com/';
+const BaseURL = 'https://incentives-prisoners-titans-felt.trycloudflare.com';
   const name = document.getElementById('name').value;
   const email = document.getElementById('email').value;
   const password = document.getElementById('password').value;

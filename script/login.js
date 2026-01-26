@@ -1,6 +1,6 @@
 document.querySelector('form').addEventListener('submit', async (e) => {
   e.preventDefault();
-const BaseURL = 'https://incentives-prisoners-titans-felt.trycloudflare.com/';
+const BaseURL = 'https://incentives-prisoners-titans-felt.trycloudflare.com';
   const email = document.getElementById('email').value;
   const password = document.getElementById('password').value;
 
@@ -9,7 +9,7 @@ const BaseURL = 'https://incentives-prisoners-titans-felt.trycloudflare.com/';
       email,
       password
     });
-
+console.log(res);
     if (res.status === 200) {
       alert(res.data.message);
       // Save token to local storage
