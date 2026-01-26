@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Upgrade to Premium</title>
+
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+            background: linear-gradient(135deg, #673ab7, #3f51b5);
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .container {
+            background: #ffffff;
+            width: 100%;
+            max-width: 450px;
+            padding: 30px;
+            border-radius: 14px;
+            box-shadow: 0 15px 35px rgba(0,0,0,0.25);
+            text-align: center;
+        }
+
+        h2 {
+            margin-bottom: 10px;
+            color: #333;
+        }
+
+        .subtitle {
+            color: #666;
+            margin-bottom: 20px;
+            font-size: 14px;
+        }
+
+        .features {
+            text-align: left;
+            margin-bottom: 25px;
+        }
+
+        .features li {
+            list-style: none;
+            padding: 8px 0;
+            font-size: 15px;
+            color: #444;
+        }
+
+        .features li::before {
+            content: "✔";
+            color: #4caf50;
+            font-weight: bold;
+            margin-right: 10px;
+        }
+
+        #renderBtn {
+            width: 100%;
+            padding: 12px;
+            background: #4caf50;
+            border: none;
+            color: white;
+            font-weight: bold;
+            border-radius: 8px;
+            cursor: pointer;
+            font-size: 16px;
+        }
+
+        #renderBtn:hover {
+            background: #43a047;
+        }
+
+        .price {
+            font-size: 22px;
+            color: #3f51b5;
+            font-weight: bold;
+            margin-bottom: 15px;
+        }
+
+        .secure {
+            font-size: 12px;
+            color: #777;
+            margin-top: 12px;
+        }
+
+        @media (max-width: 500px) {
+            .container {
+                margin: 15px;
+            }
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+
+    <h2>Upgrade to Premium</h2>
+    <p class="subtitle">Unlock powerful features for smarter expense tracking</p>
+
+    <div class="price">₹2000 / Year</div>
+
+    <ul class="features">
+        <li>Access Leaderboard feature</li>
+        <li>Download all expenses as file</li>
+        <li>View detailed expense reports</li>
+        <li>Priority premium badge on profile</li>
+        <li>Faster performance & future premium tools</li>
+    </ul>
+
+    <button id="renderBtn">Pay Now & Unlock Premium</button>
+
+    <div class="secure">🔒 100% Secure payments powered by Cashfree</div>
+
+</div>
+
+<!-- Cashfree SDK -->
+<script src="https://sdk.cashfree.com/js/v3/cashfree.js"></script>
+
+<script>
+    const cashfree = Cashfree({
+        mode: "sandbox"
+    });
+</script>
+
+<script src="/frontend/script/cashfreeWeb_self.js"></script>
+
+</body>
+</html>
