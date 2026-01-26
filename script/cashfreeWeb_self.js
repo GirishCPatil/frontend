@@ -9,7 +9,6 @@ document.getElementById("renderBtn").addEventListener("click", async () => {
         "Content-Type": "application/json",
         "Authorization":  token
     }
-
         });
 
         const data = await response.json();
