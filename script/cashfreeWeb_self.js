@@ -1,4 +1,4 @@
-const BaseURL = 'https://attacks-consultants-julie-directions.trycloudflare.com';
+const BaseURL = 'https://busy-myrtle-redhead-remove.trycloudflare.com';
 document.getElementById("renderBtn").addEventListener("click", async () => {
     try {
         let token = localStorage.getItem("token");

