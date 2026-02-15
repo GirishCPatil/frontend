@@ -1,6 +1,6 @@
 document.querySelector('form').addEventListener('submit', async (e) => {
   e.preventDefault();
-const BaseURL = 'https://critical-functionality-takes-playlist.trycloudflare.com';
+const BaseURL = 'https://must-venice-dis-holmes.trycloudflare.com';
   const name = document.getElementById('name').value;
   const email = document.getElementById('email').value;
   const password = document.getElementById('password').value;

@@ -1,4 +1,4 @@
-const BaseURL = 'https://critical-functionality-takes-playlist.trycloudflare.com';
+const BaseURL = 'https://must-venice-dis-holmes.trycloudflare.com';
 document.getElementById("renderBtn").addEventListener("click", async () => {
     try {
         let token = localStorage.getItem("token");
